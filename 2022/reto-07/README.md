@@ -1,4 +1,4 @@
-# ✅ Reto 07: Haciendo inventario de regalos
+# ✅ Reto 07: Haciendo inventario de regalos.
 
 ## 🔠 Instrucciones:
 

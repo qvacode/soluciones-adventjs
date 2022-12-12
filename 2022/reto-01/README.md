@@ -1,4 +1,4 @@
-# RETO-01 AUTOMATIZANDO ENVOLBER REGALOS DE NAVIDAD
+# RETO-01 Automatizando envolver regalos de navidad!
 
 Este año los elfos han comprado una máquina que envuelve regalos. Pero… ¡no viene programada! Necesitamos crear un algoritmo que le ayude en la tarea.
 

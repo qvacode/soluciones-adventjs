@@ -1,4 +1,4 @@
-# 🛷 Reto 10: El salto del trineo de Papá Noel
+# 🛷 Reto 10: El salto del trineo de Papá Noel.
 
 
 ## 🔠 Instrucciones:

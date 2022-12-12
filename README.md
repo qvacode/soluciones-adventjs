@@ -1,13 +1,15 @@
-# 🎅💻️ adventJS solutions [![GitHub RESULTS Workflow Status](https://img.shields.io/github/workflow/status/borjapazr/adventjs-solutions/RESULTS?style=flat-square&logo=github&label=RESULTS)](https://github.com/borjapazr/adventjs-solutions/actions)
+# 🎅🎄 Soluciones al adventJS
 
 <p align="center"> 
-  <img src=https://i.imgur.com/mOUN7uE.png/>
+  <img src=https://adventjs.dev/challenges-2022/1.svg width="35%"/>
 </p>
 
-<h3 align="center">🧑‍🚀 24 days /
-24 coding challenges • <a href="https://adventjs.dev">adventJS</a> 🚀</h3>
+<h3 align="center">🗓️ 24 días /
+24 retos de código • <a style="color: cyan" href="https://adventjs.dev">adventJS</a> 🚀</h3>
 
-This repository contains the solutions to the challenges proposed by [@midudev](https://midu.dev/) on the [adventJS](https://adventjs.dev/) website.
+---
+
+En este repositorio puedes encontrar las soluciones a los retos de código propuestos por [@midudev](https://midu.dev/) en el [adventJS](https://adventjs.dev/).
 
 ## 🤖 2022
 
@@ -15,52 +17,52 @@ This repository contains the solutions to the challenges proposed by [@midudev](
 
 <summary>Show / Hide</summary>
 
-### 🎮️ Challenges
+## 🎮️ Retos
 
-|  #  |                           Retos                               | Dificultad[^1] |               Soluciones              |
-| :-: | :-----------------------------------------------------------: | :------------: | :-----------------------------------: |
-| 01  |   [Automating Christmas gift wrapping!](2022/challenge-01)    |       🟢       | [Show](2022/challenge-01/solution.js) |
-| 02  |  [Nobody wants to do extra hours at work](2022/challenge-02)  |       🟢       | [Show](2022/challenge-02/solution.js) |
-| 03  | [How many packs of gifts can Santa carry?](2022/challenge-03) |       🟢       | [Show](2022/challenge-03/solution.js) |
-| 04  |     [Box inside a box and another...](2022/challenge-04)      |       🟠       | [Show](2022/challenge-04/solution.js) |
-| 05  |         [Optimizing Santa's trips](2022/challenge-05)         |       🔴       | [Show](2022/challenge-05/solution.js) |
-| 06  |        [Creating xmas decorations](2022/challenge-06)         |       🟠       | [Show](2022/challenge-06/solution.js) |
-| 07  |          [Doing gifts inventory](2022/challenge-07)           |       🟢       | [Show](2022/challenge-07/solution.js) |
-| 08  |           [We need a mechanic!](2022/challenge-08)            |       🟠       | [Show](2022/challenge-08/solution.js) |
-| 09  |            [Crazy Xmas lights](2022/challenge-09)             |       🟢       | [Show](2022/challenge-09/solution.js) |
-| 10  |       [The Santa Claus sleigh jump](2022/challenge-10)        |       🟠       | [Show](2022/challenge-10/solution.js) |
-| 11  |       [Santa Claus is Scrum Master](2022/challenge-11)        |       🔴       | [Show](2022/challenge-11/solution.js) |
+|  #  |                               Retos                               | Dificultad |          Soluciones          |
+| :-: | :---------------------------------------------------------------: | :--------: | :--------------------------: |
+| 01  |    [Automatizando envolver regalos de navidad!](2022/reto-01)     |     🟢     | [Ver](2022/reto-01/index.js) |
+| 02  |         [Nadie quiere hacer horas extras.](2022/reto-02)          |     🟢     | [Ver](2022/reto-02/index.js) |
+| 03  | [¿Cuántas cajas de regalos puede llevar Papá Noel?](2022/reto-03) |     🟢     | [Ver](2022/reto-03/index.js) |
+| 04  |      [Una caja dentro de otra caja y otra ...](2022/reto-04)      |     🟠     | [Ver](2022/reto-04/index.js) |
+| 05  |           [Optimizando viajes de Santa.](2022/reto-05)            |     🔴     | [Ver](2022/reto-05/index.js) |
+| 06  |            [Creando adornos navideños.](2022/reto-06)             |     🟠     | [Ver](2022/reto-06/index.js) |
+| 07  |          [Haciendo inventario de regalos.](2022/reto-07)          |     🟢     | [Ver](2022/reto-07/index.js) |
+| 08  |             [Necesitamos un mecánico.](2022/reto-08)              |     🟠     | [Ver](2022/reto-08/index.js) |
+| 09  |            [Las locas luces de navidad.](2022/reto-09)            |     🟢     | [Ver](2022/reto-09/index.js) |
+| 10  |         [El salto del trineo de Papá Noel.](2022/reto-10)         |     🟠     | [Ver](2022/reto-10/index.js) |
+| 11  |           [Papá noel es un Scrum Master.](2022/reto-11)           |     🔴     | [Ver](2022/reto-11/index.js) |
 
-[^1]: **Difficulty**: 🟢 Easy 🟠 Medium 🔴 Hard 🟣 Very Hard
+**Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
 </details>
 
-## 🚀 Quick start
+## 🚀 Instrucciones para iniciar:
 
-- Install
+- Instalación:
 
   ```bash
-  make install
+  yarn install
   # or
   npm install
   ```
 
-- Run all challenges
+- Ejecutar todos los retos:
 
   ```bash
-  make run
+  yarn test
   # or
   npm test
   ```
 
-- Run specific challenge
+- Ejecutar un reto específico.
 
   ```bash
-  make run YEAR=YYYY CHALLENGE=XX # where YYYY is the year and XX is the challenge number
+  yarn test 2022/reto-XX # donde XX es el número del reto.
   # or
-  npm test YYYY/challenge-XX # where YYYY is the year and XX is the challenge number
+  npm test 2022/reto-XX # donde XX es el número del reto.
   ```
 
-## 🚩 License
+## 📃 Licencia:
 
-MIT @ [borjapazr](https://me.marsmachine.space). Please see [License](LICENSE) for more information.
+MIT. Por favor, revisa la [Licencia](LICENSE) para más información.

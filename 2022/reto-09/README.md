@@ -1,4 +1,4 @@
-# 🎄 Reto 09: Las locas luces de navidad
+# 🎄 Reto 09: Las locas luces de navidad.
 
 ## 🔠 Instrucciones:
 
