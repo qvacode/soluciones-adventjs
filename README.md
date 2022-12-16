@@ -35,6 +35,7 @@ En este repositorio puedes encontrar las soluciones a los retos de código propu
 | 12  |            [Trineos eléctricos, ¡guau!.](2022/reto-12)            |     🟠     | [Ver](2022/reto-12/index.js) |
 | 13  |       [Backup de los archivos de Papá Noel..](2022/reto-13)       |     🟢     | [Ver](2022/reto-13/index.js) |
 | 14  |                  [El mejor camino](2022/reto-14)                  |     🟠     | [Ver](2022/reto-14/index.js) |
+| 15  |           [Decorando el árbol de Navidad](2022/reto-15)           |     🟠     | [Ver](2022/reto-15/index.js) |
 
 **Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
