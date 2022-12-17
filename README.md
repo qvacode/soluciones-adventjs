@@ -37,6 +37,7 @@ En este repositorio puedes encontrar las soluciones a los retos de código propu
 | 14  |                  [El mejor camino](2022/reto-14)                  |     🟠     | [Ver](2022/reto-14/index.js) |
 | 15  |           [Decorando el árbol de Navidad](2022/reto-15)           |     🟠     | [Ver](2022/reto-15/index.js) |
 | 16  |        [Arreglando las cartas de Papá Noeal](2022/reto-16)        |     🔴     | [Ver](2022/reto-16/index.js) |
+| 17  |           [Llevando los regalos en saco](2022/reto-17)            |     🟠     | [Ver](2022/reto-17/index.js) |
 
 **Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
