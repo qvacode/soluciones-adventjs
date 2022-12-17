@@ -1,7 +1,7 @@
 export const decorateTree = (base) => {
   const tree = base.split(" ");
 
-  const getLetter = {
+  const ornaments = {
     PP: "P",
     BB: "B",
     RR: "R",
@@ -13,13 +13,13 @@ export const decorateTree = (base) => {
     RB: "P",
   };
 
-  const nextLevel = (el = []) => {
-    return el.slice(1).map((_, i) => getLetter[el[i] + el[i + 1]]);
+  const nextRow = (el = []) => {
+    return el.slice(1).map((_, i) => ornaments[el[i] + el[i + 1]]);
   };
 
   return tree
     .slice(1)
-    .reduce((acc, _, index) => [...acc, nextLevel(acc[index])], [tree])
+    .reduce((acc, _, index) => [...acc, nextRow(acc[index])], [tree])
     .reverse()
     .map((el) => el.join(" "));
 };
