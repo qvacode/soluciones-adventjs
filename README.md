@@ -38,6 +38,7 @@ En este repositorio puedes encontrar las soluciones a los retos de código propu
 | 15  |           [Decorando el árbol de Navidad](2022/reto-15)           |     🟠     | [Ver](2022/reto-15/index.js) |
 | 16  |        [Arreglando las cartas de Papá Noeal](2022/reto-16)        |     🔴     | [Ver](2022/reto-16/index.js) |
 | 17  |           [Llevando los regalos en saco](2022/reto-17)            |     🟠     | [Ver](2022/reto-17/index.js) |
+| 18  |             [¡Nos quedamos sin tinta!](2022/reto-18)              |     🟢     | [Ver](2022/reto-18/index.js) |
 
 **Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
