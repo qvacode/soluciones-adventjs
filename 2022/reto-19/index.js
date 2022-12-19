@@ -1,0 +1,8 @@
+export const sortToys = (toys, positions) => {
+  const res = [];
+  positions.forEach((el, index) => {
+    res.push([toys[index], el]);
+  });
+  res.sort((a, b) => a[1] - b[1]);
+  return res.map(el => el[0]);
+};
