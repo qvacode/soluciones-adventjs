@@ -41,6 +41,7 @@ En este repositorio puedes encontrar las soluciones a los retos de código propu
 | 18  |             [¡Nos quedamos sin tinta!](2022/reto-18)              |     🟢     | [Ver](2022/reto-18/index.js) |
 | 19  |               [Ordenando los regalos](2022/reto-19)               |     🟢     | [Ver](2022/reto-19/index.js) |
 | 20  |               [Más viajes retadores](2022/reto-20)                |     🔴     | [Ver](2022/reto-20/index.js) |
+| 21  |            [Creando la tabla de regalos](2022/reto-21)            |     🟠     | [Ver](2022/reto-21/index.js) |
 
 **Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
