@@ -25,3 +25,26 @@ export const printTable = (gifts = []) => {
 
   return strRes;
 };
+
+export const printTableAlt = (gifts = []) => {
+  const nameLength = Math.max(
+    ...gifts.map(el => el.name.length),
+    'Gift'.length
+  );
+  const quantityLength = Math.max(
+    ...gifts.map(el => (el.quantity + '').length),
+    'Quantity'.length
+  );
+  const base = nameLength + quantityLength + 7;
+
+  return (
+    gifts.reduce((acc, el) => {
+      return (acc += `| ${el.name}${' '.repeat(
+        nameLength - el['name'].length
+      )} | ${el.quantity}${' '.repeat(
+        quantityLength - el['quantity'].toString().length
+      )} |\n`);
+    }, `${'+'.repeat(base)}\n| Gift${' '.repeat(nameLength - 4)} | Quantity${' '.repeat(quantityLength - 8)} |\n| ${'-'.repeat(nameLength)} | ${'-'.repeat(quantityLength)} |\n`) +
+    `${'*'.repeat(base)}`
+  );
+};
