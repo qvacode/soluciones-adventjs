@@ -44,6 +44,7 @@ En este repositorio puedes encontrar las soluciones a los retos de código propu
 | 21  |            [Creando la tabla de regalos](2022/reto-21)            |     🟠     | [Ver](2022/reto-21/index.js) |
 | 22  |            [La iluminación en sintonía](2022/reto-22)             |     🟢     | [Ver](2022/reto-22/index.js) |
 | 23  |              [Compilador de Papá Noel](2022/reto-23)              |     🔴     | [Ver](2022/reto-23/index.js) |
+| 24  |          [El último reto es un laberinto](2022/reto-24)           |     🔴     | [Ver](2022/reto-24/index.js) |
 
 **Dificultad**: 🟢 Fácil 🟠 Medio 🔴 Difícil 🟣 Muy Difícil
 
